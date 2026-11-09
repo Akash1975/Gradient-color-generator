@@ -131,9 +131,12 @@
 
             document.body.style.backgroundImage =
                 `linear-gradient(to right, ${rgb1}, ${rgb2})`;
+            console.log(color);
+
 
             copyDiv.textContent =
-                `background-image: linear-gradient(to right, ${rgb1}, ${rgb2})`;
+                `background-image: linear-gradient(to right, ${rgb1}, ${rgb2}`;
+
         };
 
         const handleButton2 = () => {
